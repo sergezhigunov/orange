@@ -24,8 +24,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CB2B364D
 		tests\Directory.Build.props = tests\Directory.Build.props
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orange.Ide.App", "src\Ide.App\Orange.Ide.App.csproj", "{EDC4DDCE-4B56-4C7E-B085-DDD561086A2D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDC4DDCE-4B56-4C7E-B085-DDD561086A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC4DDCE-4B56-4C7E-B085-DDD561086A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC4DDCE-4B56-4C7E-B085-DDD561086A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC4DDCE-4B56-4C7E-B085-DDD561086A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDC4DDCE-4B56-4C7E-B085-DDD561086A2D} = {94E38728-1CC3-441E-9221-5162B346153A}
 	EndGlobalSection
 EndGlobal
