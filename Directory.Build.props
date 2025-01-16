@@ -1,0 +1,15 @@
+<Project>
+
+  <PropertyGroup>
+    <Authors>Sergey Zhigunov</Authors>
+    <Copyright>Copyright © 2025 Sergey Zhigunov</Copyright>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <LangVersion>13.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>$(MSBuildThisFileDirectory)Key.snk</AssemblyOriginatorKeyFile>
+    <VersionPrefix>0.0.1</VersionPrefix>
+  </PropertyGroup>
+
+</Project>
