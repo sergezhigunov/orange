@@ -1,0 +1,20 @@
+* text=auto
+
+*.cs text diff=csharp
+
+*.sln text eol=crlf merge=union
+
+*.axaml text
+*.csproj text
+*.json text
+*.md text
+*.props text
+*.resw text
+*.resx text
+*.targets text
+*.xaml text
+
+*.jpeg binary
+*.jpg binary
+*.png binary
+*.snk binary
