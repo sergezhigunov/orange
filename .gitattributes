@@ -13,6 +13,7 @@
 *.resx text
 *.targets text
 *.xaml text
+*.xml text
 
 *.jpeg binary
 *.jpg binary
